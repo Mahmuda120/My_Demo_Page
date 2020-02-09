@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800|Ma+Shan+Zheng&display|Vollkorn:400,600,700&display=swap');
+
+*{
+	margin:0px;
+	padding:0px;
+	outline:0px;
+}
+body{
+	font-family: 'Ma Shan Zheng', cursive;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Vollkorn', serif;
+overflow-x: hidden;
+}
+ul,ol{
+	list-style: none;
+}
+a,a:hover{
+	text-decoration: none;
+}
+img{
+	vertical-align: middle;
+}
+h1,h2,h3,h4,h5,h6,a,p,img,ul,ol,.navbar{
+	margin: 0px;
+	padding: 0px;
+}
+/******************************
+         Common CSS End
+*******************************/
+.head-part{
+	background: url('../images/sunset-4801688_1920.jpg');
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-attachment: fixed;
+	height: 400px;
+	width: 100%;
+	position: relative;
+}
+.h-overlay{
+	height: 400px;
+	width: 100%;
+	background: rgba(0,0,0,0.75);
+}
+.h-con h3{
+	position: absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+	font-family: 'Vollkorn', serif;
+	font-weight: 700;
+	font-size: 36px;
+	color: #fff;
+}
+.h-con p{
+	position: absolute;
+	top:63%;
+	left:50%;
+	transform: translate(-50%,-63%);
+	
+	font-weight: 400;
+	font-size: 20px;
+	color: #fff;
+}
+
+/*
+Header Page End
+*/
+
+#demo-pages{
+	padding: 100px 0px;
+}
+
+#demo-pages h3{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	font-size: 35px;
+	color: #000;
+	text-align: center;
+	padding-bottom: 50px;
+}
+.con{
+	width: 100%;
+	height: 300px;
+	border: 15px solid #BDC3C7;
+	overflow: hidden;
+	position: relative;
+	border-radius: 15px;
+}
+.con img{
+	transition: all linear 3s;
+	
+
+}
+.con:hover img{
+	margin-top: -770px;
+
+}
+.con-4{
+	width: 100%;
+	height: 300px;
+	border: 15px solid #BDC3C7;
+	overflow: hidden;
+	position: relative;
+	border-radius: 15px;
+}
+.con-4 img{
+	transition: all linear 5s;
+	
+
+}
+.con-4:hover img{
+	margin-top: -1240px;
+
+}
+.con-5{
+	width: 100%;
+	height: 300px;
+	border: 15px solid #BDC3C7;
+	overflow: hidden;
+	position: relative;
+	border-radius: 15px;
+}
+.con-5 img{
+	transition: all linear 4s;
+	
+
+}
+.con-5:hover img{
+	margin-top: -995px;
+
+}
+.con-6{
+	width: 100%;
+	height: 300px;
+	border: 15px solid #BDC3C7;
+	overflow: hidden;
+	position: relative;
+	border-radius: 15px;
+}
+.con-6 img{
+	transition: all linear 6s;
+	
+
+}
+.con-6:hover img{
+	margin-top: -1368px;
+
+}
+.con-7{
+	width: 100%;
+	height: 300px;
+	border: 15px solid #BDC3C7;
+	overflow: hidden;
+	position: relative;
+	border-radius: 15px;
+}
+.con-7 img{
+	transition: all linear 3s;
+	
+
+}
+.con-7:hover img{
+	margin-top: -640px;
+
+}
+.con-8{
+	width: 100%;
+	height: 300px;
+	border: 15px solid #BDC3C7;
+	overflow: hidden;
+	position: relative;
+	border-radius: 15px;
+}
+.con-8 img{
+	transition: all linear 1.5s;
+	
+
+}
+.con-8:hover img{
+	margin-top: -292px;
+
+}
+.con-9{
+	width: 100%;
+	height: 300px;
+	border: 15px solid #BDC3C7;
+	overflow: hidden;
+	position: relative;
+	border-radius: 15px;
+}
+.con-9 img{
+	transition: all linear 3s;
+	
+
+}
+.con-9:hover img{
+	margin-top: -715px;
+
+}
+.con-overlay{
+	height: 74.7%;
+	width: 84.7%;
+	background: rgba(0,0,0,0.8);
+	position: absolute;
+	top:15px;
+	left: 30px;
+
+}
+.name p{
+	font-family: 'Open Sans', sans-serif;
+
+	font-weight: 700;
+	padding-top: 30px;
+	font-size: 23px;
+	color:#BDC3C7;
+}
+.ov-con span{
+	position: absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+	font-family: 'Vollkorn', serif;
+	font-weight: 700;
+	font-size: 20px;
+	color: #fff;
+}
+.ov-con p{
+	position: absolute;
+	top:68%;
+	left:50%;
+	transform: translate(-50%,-68%);
+	font-family: 'Vollkorn', serif;
+	font-weight: 400;
+	font-size: 25px;
+	color: #fff;
+	font-family: 'Ma Shan Zheng', cursive;
+	font-weight: 400;
+	font-size: 35px;
+	color:#BDC3C7;
+}
+#curve{
+	position: absolute;
+	bottom: 0px;
+	
+}
+.mt-15{
+	margin-top: 40px;
+}
+/*
+Demo Page End
+*/
+#ftr-cpy{
+	background:#000; 
+}
+#ftr-cpy p{
+	font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	color: #fff;
+	padding-top: 45px;
+	padding-bottom: 45px;
+}
